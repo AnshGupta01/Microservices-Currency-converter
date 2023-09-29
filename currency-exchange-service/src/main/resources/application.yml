@@ -1,11 +1,8 @@
 spring:
   application:
-    name: limits-service
-
+    name: currency-exchange
   config:
     import: optional:configserver:http://localhost:8888
 
-#  profiles:
 server:
-  port: 8080
-#    active: dev
+  port: 8000
